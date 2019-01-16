@@ -1,0 +1,272 @@
+body, div, span, p, ul, li, section, h4, h3,h2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: .16rem;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.b_top {
+  border-top: .15rem solid #e8e8e8;
+}
+
+/*头*/
+header {
+  background-color: #ffd930;
+  height: .65rem;
+  line-height: .65rem;
+}
+
+header img {
+  margin: 0 .18rem;
+}
+
+.logo1 {
+  width: 28%;
+}
+
+.logo2 {
+  width: 33%
+}
+
+header span {
+  display: inline-block;
+  font-size: .3rem;
+  position: relative;
+  top: -.2rem;
+}
+
+
+/*轮播图*/
+.lbt {
+  width: 100%;
+  height: 2.57rem;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.lbt img {
+  width: 100%;
+  height: 2.57rem;
+}
+
+.img {
+  position: relative;
+  width: 1100%;
+}
+
+.img:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.img li {
+  float: left;
+  width: 7.5rem;
+  list-style: none;
+}
+
+.num {
+  position: absolute;
+  left: 35%;
+  bottom: 0.1rem;
+}
+
+.num li {
+  width: 0.10rem;
+  height: 0.10rem;
+  background: gray;
+  border: 1px solid gray;
+  border-radius: 50%;
+  float: left;
+  margin-left: 0.10rem;
+}
+
+.white {
+  background-color: white !important;
+}
+
+
+/*导航*/
+.nav {
+  width: 100%;
+  padding: .3rem .9rem .2rem;
+  display: flex;
+  font-size: .25rem;
+  font-weight: 600;
+}
+
+.nav > div {
+  flex: 1;
+  text-align: center;
+}
+
+.nav img {
+  width: .95rem;
+}
+
+.red {
+  color: #d16e5f;
+}
+
+.yellow {
+  color: #f6a428;
+}
+
+.blue {
+  color: #17aed1;
+}
+
+/*介绍*/
+
+.intro_1 img {
+  width: 100%;
+}
+
+.intro_2 {
+  font-size: .21rem;
+  text-align: center;
+  line-height: .36rem;
+  padding: .2rem 0;
+  border-bottom: .03rem dashed #c4c4c4;
+}
+
+.p_top1 {
+  padding-top: .1rem;
+}
+
+/*吃喝玩乐*/
+.tem {
+  padding: 0 .18rem .2rem;
+}
+
+.tem_tit {
+  padding: .2rem 0 .16rem;
+  font-size: .28rem;
+}
+
+
+.tem_tit img {
+  height: .4rem;
+}
+
+.tem_img img {
+  width: 100%;
+}
+
+.tem_text {
+  font-size: .2rem;
+  line-height: .32rem;
+  font-family: '隶书';
+}
+
+.fanfa {
+  width: 100%;
+  height: 2.63rem;
+  text-align: center;
+  line-height: .36rem;
+}
+
+.fanfa h4 {
+  color: black;
+  font-weight: bold;
+}
+
+.fanfa p {
+  color: black;
+  font-size: 0.12rem;
+}
+
+.orange {
+  width: 2.23rem;
+  height: 0.68rem;
+  background: #ffb102;
+  border: 1px solid #ffb102;
+  border-radius: 0.10rem;
+  margin-left: 0.30rem;
+  text-align: center;
+  line-height: .68rem;
+}
+
+.wxh {
+  width: 100%;
+  height: 0.68rem;
+  margin-top: 0.20rem;
+
+
+}
+
+.fl {
+  float: left;
+}
+
+.pl {
+  padding: .2rem 0 0 1.70rem
+}
+
+.font {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: .98rem;
+}
+
+.f_txt {
+  padding: .4rem 0;
+  background-image: url("../images/index/index-bg_48.png");
+  background-repeat: no-repeat;
+  background-color: #202020;
+  line-height: .6rem;
+  font-size: .42rem;
+}
+
+.f_txt p {
+  color: #fff;
+}
+
+.f_txt img {
+  width: .6rem;
+}
+
+.footer {
+  width: 100%;
+  height: 0.98rem;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  background: white;
+}
+
+.footer img {
+  width: 0.50rem;
+  height: 0.40rem;
+}
+
+.footer p {
+  font-size: 0.12rem;
+  text-align: center;
+}
+
+.footer p a {
+  color: gray;
+}
+
+.footerOne {
+  padding-top: 0.10rem;
+  text-align: center;
+}
+
